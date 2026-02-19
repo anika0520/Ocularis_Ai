@@ -1,18 +1,42 @@
-<!-- index.html -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OCULARIS AI - Advanced Eye Health Monitor</title>
+    <title>OCULARIS AI — Advanced Eye Health Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="theme-color" content="#050810" />
+    <style>
+      html,
+      body {
+        background: #050810;
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        opacity: 0;
+        animation: fadeIn 0.6s ease 0.1s forwards;
+      }
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
-
   <body>
     <div id="root"></div>
 
     <!-- MediaPipe -->
-    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- React Entry -->
     <script type="module" src="/src/main.jsx"></script>
