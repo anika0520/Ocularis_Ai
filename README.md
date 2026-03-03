@@ -9,7 +9,7 @@ It is designed to promote healthier screen usage habits through real-time feedba
 
 ## 🚀 Live Demo
 
-> _(Add deployed link here — e.g., Vercel / Netlify)_
+Link- https://ocularis-silk.vercel.app/
 
 ---
 
